@@ -44,8 +44,12 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -71,8 +75,12 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
       title:
@@ -94,15 +102,19 @@ sections:
       any layout and any screen.
     actions:
       - type: Button
-        url: "#"
+        url: '#'
         label: Get Started
         style: primary
     styles:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
         flexDirection: col
@@ -128,8 +140,12 @@ sections:
       self:
         height: auto
         width: narrow
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
       title:
@@ -147,15 +163,18 @@ sections:
     colors: colors-e
     backgroundWidth: full
     posts:
-      - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     styles:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
       title:
@@ -171,17 +190,17 @@ sections:
   - type: HeroSection
     colors: colors-a
     backgroundWidth: full
-    title: The quick, brown fox jumps over a lazy dog
+    title: 'The quick, brown fox jumps over a lazy dog'
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
     actions:
       - type: Button
-        url: "#"
+        url: '#'
         label: Apply Now
         style: primary
       - type: Button
-        url: "#"
+        url: '#'
         label: Learn more
         style: secondary
     feature:
@@ -193,8 +212,12 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
@@ -225,7 +248,9 @@ sections:
           altText: Photo of Isabelle Parks
         styles:
           self:
-            margin: ["mt-0", "mb-0"]
+            margin:
+              - mt-0
+              - mb-0
             flexDirection: col
           quote:
             textAlign: center
@@ -241,8 +266,12 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
       title:
@@ -269,7 +298,7 @@ sections:
       type: ImageBlock
       url: /images/water.jpg
       altText: Water
-      caption: ""
+      caption: ''
       styles:
         self:
           opacity: 40
@@ -277,8 +306,12 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
       quote:
